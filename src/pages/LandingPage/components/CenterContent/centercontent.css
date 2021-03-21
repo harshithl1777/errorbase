@@ -1,0 +1,207 @@
+.centercontent {
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.centercontent__heading {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #6110c9;
+  margin-bottom: 10px;
+}
+
+.centercontent__main {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #29282c;
+  margin-bottom: 20px;
+}
+
+.centercontent__main span {
+  color: #6110c9;
+}
+
+.centercontent__sub {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #29282c;
+  width: 60%;
+  margin: auto;
+}
+
+.centercontent__btn {
+  padding: 1.5rem 4rem;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+  .centercontent {
+    width: 100%;
+    height: 68vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 12vh;
+  }
+
+  .centercontent__main {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: 0.2rem;
+    color: #29282c;
+    margin-bottom: 20px;
+  }
+
+  .centercontent__sub {
+    font-size: 20px;
+  }
+
+  .centercontent__btn {
+    padding: 1.5rem 4rem;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  .centercontent {
+    width: 100%;
+    height: 65vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 10vh;
+  }
+
+  .centercontent__main {
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: 0.1rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .centercontent__sub {
+    font-size: 14px;
+  }
+
+  .centercontent__btn {
+    padding: 1rem 2.4rem;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+    border-radius: 8px;
+    color: #ffffff;
+    border: none;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .centercontent {
+    width: 100%;
+    height: 55vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  .centercontent__main {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.1rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .centercontent__sub {
+    font-size: 12px;
+  }
+
+  .centercontent__btn {
+    padding: 0.8rem 2.2rem;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+    border-radius: 6px;
+    color: #ffffff;
+    border: none;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .centercontent {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .centercontent__main {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.1rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .centercontent__sub {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .centercontent__btn {
+    padding: 0.6rem 1.8rem;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+    border-radius: 6px;
+    color: #ffffff;
+    border: none;
+    margin-right: 20px;
+  }
+}
