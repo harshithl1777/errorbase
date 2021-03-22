@@ -5,6 +5,8 @@ import './landingcontent.css';
 const LandingContent = ({header, main, sub}) => {
     return (
         <div className='landingcontent'>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet"></link>
             <div className='landingcontent__text'>
                 <h2 className='landingcontent__main'>{main}</h2>
                 <h3 className='landingcontent__sub'>{sub}</h3>

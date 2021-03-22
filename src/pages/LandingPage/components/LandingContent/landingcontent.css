@@ -4,16 +4,17 @@
   align-items: center;
   text-align: center;
   padding-top: 12vh;
+  background: #141414;
 }
 
 .landingcontent__main {
-  font-family: Poppins;
+  font-family: Inter;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 52px;
   line-height: 62px;
   letter-spacing: 0.2rem;
-  color: #29282c;
+  color: #FFFFFF;
   margin-bottom: 20px;
 }
 
@@ -25,9 +26,13 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  color: #29282c;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
   width: 55%;
   margin: auto;
 }
@@ -39,12 +44,16 @@
 .landingsig__btn {
   padding: 1.5rem 4rem;
   margin-top: 30px;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-  background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1A1A1A;
+  background: #FF3939;
   border-radius: 10px;
-  color: #ffffff;
   border: none;
   margin-right: 20px;
 }
@@ -52,11 +61,15 @@
 .landingmore__btn {
   padding: 1.5rem 4rem;
   margin-top: 30px;
-  font-size: 16px;
   font-family: "Inter", sans-serif;
-  font-weight: 800;
-  background: #29282c;
-  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #1A1A1A;
+  background: white;
   border: none;
   border-radius: 10px;
   margin-right: 20px;

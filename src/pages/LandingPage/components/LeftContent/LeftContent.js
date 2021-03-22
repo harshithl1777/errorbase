@@ -6,12 +6,13 @@ import './leftcontent.css';
 const LeftContent = ({header, main, sub}) => {
     return (
         <div className='leftcontent'>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
             
             <div className='leftcontent__left'>
                 <h4 className='leftcontent__header'>{header}</h4>
                 <h2 className='leftcontent__main'>{main}</h2>
                 <h3 className='leftcontent__sub'>{sub}</h3>
-                <button className='leftcontent__btn'> Get started </button>
             </div>
 
             <div className='leftcontent__right'>
